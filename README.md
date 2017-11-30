@@ -1,6 +1,6 @@
 # travel-site
 
-Website built using modern tools and best-practices. Developed with a with a mobile-first performance philosophy. Package management with Node.js/npm. Task automation with Gulp and PostCSS. Modulaized Javascript using ES6, Babel and webpack.
+Website built using modern tools and best-practices. Developed with a with a mobile-first performance philosophy. Package management with Node.js/npm. Task automation with Gulp and PostCSS. Modularized JavaScript using ES6, Babel and webpack.
 
 ## Built With
 

@@ -21,10 +21,10 @@ Website built using modern tools and best-practices. Developed with a with a mob
 
 ### PostCSS
 
-* Automatically creates vendor specific prefixes
-* Sass-like variables
-* Nested CSS rules
 * Modularized CSS with @import
+* CSS variables
+* Nested CSS rules
+* Automatically create vendor specific prefixes with autoprefixer
 * Patterns of property value pairs (mixins)
 
 ## Deployment

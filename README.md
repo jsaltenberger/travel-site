@@ -6,28 +6,26 @@ Website built using modern tools and best-practices. Developed with a with a mob
 
 ### Node.js/npm
 
-* Installing and managing npm packages
-* Organizing package.json file
+* Package management
+* Development server
 
 ### HTML/CSS
 
+* Blocks, Elements and Modifiers (BEM) methodology
 * Responsive images 
 
 ### Gulp
 
-* Install Gulp
-* Setting up initial gulpfile and modularizing tasks
-* Developing task runners
-* Integrate Browsersync 
+* Modularized task runners
+* Browsersync integration
 
 ### PostCSS
 
-* Install PostCSS
-* postcss-autoprefixer: Automatically create vendor specific prefixes
-* postcss-simple-vars: For setting Sass-like variables
-* postcss-nested: For unwrapping nested CSS rules
-* postcss-import: For using @import in CSS. Allows for modularized CSS
-* postcss-mixins: For defining patterns of property value pairs
+* Automatically creates vendor specific prefixes
+* Sass-like variables
+* Nested CSS rules
+* Modularized CSS with @import
+* Patterns of property value pairs (mixins)
 
 ## Deployment
 

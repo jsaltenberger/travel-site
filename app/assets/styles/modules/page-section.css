@@ -13,6 +13,14 @@
         }
     }
 
+    &--no-b-padding-until-large {
+        padding-bottom: 0;
+
+        @mixin atLarge {
+            padding-bottom: 3.5rem;
+        }
+    }
+
     &--blue {
         background-color: $mainBlue;
         color: #FFF;

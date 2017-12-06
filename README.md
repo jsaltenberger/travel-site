@@ -12,7 +12,8 @@ Website built using modern tools and best-practices. Developed with a with a mob
 ### HTML/CSS
 
 * Blocks, Elements and Modifiers (BEM) methodology
-* Responsive images 
+* Responsive images
+* Flexbox
 
 ### Gulp
 

@@ -14,11 +14,13 @@ Website built using modern tools and best-practices. Developed with a with a mob
 * Blocks, Elements and Modifiers (BEM) methodology
 * Responsive images
 * Flexbox
+* Sprites
 
 ### Gulp
 
 * Modularized task runners
 * Browsersync integration
+* Geberate SVG sprites
 
 ### PostCSS
 

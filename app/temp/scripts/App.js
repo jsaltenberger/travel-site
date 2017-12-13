@@ -73,7 +73,6 @@ var Person = __webpack_require__(2);
 var john = new Person("John", "blue");
 console.log(john);
 
-$("h1").remove();
 
 /***/ }),
 /* 1 */

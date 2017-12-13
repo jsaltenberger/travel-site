@@ -1,6 +1,12 @@
-function Person(_name, _color) {
-    this.name = _name;
-    this.color = _color
+class Person {
+    constructor(_name, _color) {
+        this.name = _name;
+        this.color = _color;
+    }
+
+    greet() {
+        console.log(this.color);
+    }
 }
 
-module.exports = Person;
+export default Person;

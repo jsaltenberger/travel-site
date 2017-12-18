@@ -1174,7 +1174,7 @@ a {
 
 .site-header__menu-content {
         opacity: 0;
-        padding-top: 100px;
+        padding-top: 90px;
         z-index: -10;
         position: relative;
         text-align: center;
@@ -1201,6 +1201,17 @@ a {
             -webkit-transform: scale(1);
                     transform: scale(1);
         }
+
+.primary-nav {
+    padding-top: 10px;
+}
+
+@media (min-width: 800px) {
+
+.primary-nav {
+        padding-top: 0px
+}
+    }
 
 @media (min-width: 800px) {
 
@@ -1251,5 +1262,16 @@ a {
         text-decoration: none;
         font-weight: 300;
         display: block;
-        padding: 12px 0;   
+        padding: 5px 8px;
+        font-size: .8rem;
+        background-color: rgba(47,85,114, .5);
+    }
+
+@media (min-width: 800px) {
+
+.primary-nav a {
+            padding: 12px 0;
+            font-size: 1rem;
+            background-color: transparent
+    }
     }

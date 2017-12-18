@@ -4,11 +4,6 @@ Website built using modern tools and best-practices. Developed with a with a mob
 
 ## Built With
 
-### Node.js/npm
-
-* Package management
-* Development server
-
 ### HTML/CSS
 
 * Blocks, Elements and Modifiers (BEM) methodology
@@ -16,11 +11,16 @@ Website built using modern tools and best-practices. Developed with a with a mob
 * Flexbox
 * Sprites
 
+### JavaScript
+
+* Node.js/npm package management
+* ES6 module pattern
+
 ### Gulp
 
 * Modularized task runners
 * Browsersync integration
-* Geberate SVG sprites
+* Generate SVG sprites
 
 ### PostCSS
 

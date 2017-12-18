@@ -10330,6 +10330,10 @@ return jQuery;
 "use strict";
 
 
+var _jQuery = __webpack_require__(0);
+
+var _jQuery2 = _interopRequireDefault(_jQuery);
+
 var _MobileMenu = __webpack_require__(2);
 
 var _MobileMenu2 = _interopRequireDefault(_MobileMenu);
@@ -10341,7 +10345,8 @@ var _RevealOnScroll2 = _interopRequireDefault(_RevealOnScroll);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var mobileMenu = new _MobileMenu2.default();
-var revealOnScroll = new _RevealOnScroll2.default();
+var featureItemsOnScroll = new _RevealOnScroll2.default((0, _jQuery2.default)(".feature-item"), "85%");
+var testimonialsOnScroll = new _RevealOnScroll2.default((0, _jQuery2.default)(".testimonial"), "70%");
 
 /***/ }),
 /* 2 */
@@ -10420,10 +10425,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var RevealOnScroll = function () {
-    function RevealOnScroll() {
+    function RevealOnScroll(els, offset) {
         _classCallCheck(this, RevealOnScroll);
 
-        this.itemsToReveal = (0, _jQuery2.default)(".feature-item");
+        this.itemsToReveal = els;
+        this.offsetPercentage = offset;
         this.hideInitially();
         this.createWaypoints();
     }
@@ -10436,6 +10442,7 @@ var RevealOnScroll = function () {
     }, {
         key: 'createWaypoints',
         value: function createWaypoints() {
+            var self = this;
             this.itemsToReveal.each(function () {
                 var item = this;
                 new Waypoint({
@@ -10443,7 +10450,7 @@ var RevealOnScroll = function () {
                     handler: function handler() {
                         (0, _jQuery2.default)(item).addClass("reveal-item--is-visible");
                     },
-                    offset: "85%"
+                    offset: self.offsetPercentage
                 });
             });
         }

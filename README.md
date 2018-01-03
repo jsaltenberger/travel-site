@@ -10,11 +10,13 @@ Website built using modern tools and best-practices. Developed with a with a mob
 * Responsive images
 * Flexbox
 * Sprites
+* Lazy loading
 
 ### JavaScript
 
 * Node.js/npm package management
 * ES6 module pattern
+* jQuery
 
 ### Gulp
 
